@@ -8,13 +8,13 @@ class BasicCache(BaseCaching):
         """
         A basic cache implementaion class
 
-        Attributes:
-            MAX_ITEMS: number of items that can be store in the cache
         """
         def __init__(self):
-            """_summary_
+            """basic cache implementation 
             """
             super().__init__()
+            """basic cache implementation
+            """
         def put(self, key, item):
             """ Add an item in the cache
             """
